@@ -19,11 +19,11 @@ span a{ font-size: medium; text-decoration: none; padding: 2%; }
 
 section{ background: url(abhay.png); background-repeat: no-repeat; background-position: 600px 20px; background-size: 450px; }
 
-.hire{ padding: 0px; background: royalblue; border-color: royalblue; margin-left: 60px; color: white; border-radius: 10px; border-width: 1px; height: 30px; width: 90px; }
+#hire{ padding: 0px; background: royalblue; border-color: royalblue; margin-left: 60px; color: white; border-radius: 10px; border-width: 1px; height: 30px; width: 90px; }
 
-.hire:hover,.let:hover #hire{ background: white; color: royalblue; }
+#hire:hover,.let:hover #hire{ background: white; color: royalblue; }
 
-.hire:active{ box-shadow: inset -2px; background-color: darkblue; color: white; }
+#hire:active{ box-shadow: inset -2px; background-color: darkblue; color: white; }
 
 #sp{ background: white; border-color: royalblue; margin-left: 20px; color: royalblue; border-radius: 10px; border-width: 1px; height: 30px; width: 90px; }
 

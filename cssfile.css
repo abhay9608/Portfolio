@@ -42,7 +42,6 @@ span{
     letter-spacing: 1px;
     font-size: large;
     color: black;
-    transition: .3s;
 }
 span a{
     font-size: medium;
@@ -57,7 +56,6 @@ span a{
     border-radius: 10px;
     border: 2px solid #7d2ae8;
     font-weight: 500;
-    transition: .3s;
 }
 .leta{
     align-content: flex-end;
@@ -68,7 +66,8 @@ section{
     background-position: 600px 20px;
     background-size: 450px;
 }
-#hire{
+.hire{
+    padding: 0px;
     background: royalblue;
     border-color: royalblue;
     margin-left: 60px;
@@ -78,6 +77,15 @@ section{
     height: 30px;
     width: 90px;
 
+}
+.hire:hover,.let:hover .hire{
+    background: white;
+    color: royalblue;
+}
+.hire:active{
+    box-shadow: inset -2px;
+    background-color: darkblue;
+    color: white;
 }
 #sp{
     background: white;
@@ -89,6 +97,11 @@ section{
     height: 30px;
     width: 90px;
 
+}
+#sp:hover {
+    background: royalblue;
+    color: white;
+    
 }
 .intro{
     margin-left: 100px;

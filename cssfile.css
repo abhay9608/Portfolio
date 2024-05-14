@@ -78,7 +78,7 @@ section{
     width: 90px;
 
 }
-.hire:hover,.let:hover .hire{
+.hire:hover{
     background: white;
     color: royalblue;
 }
